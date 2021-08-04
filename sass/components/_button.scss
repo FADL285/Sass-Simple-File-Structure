@@ -1,0 +1,22 @@
+.btn {
+  &::after {
+  }
+
+  &:hover {
+  }
+
+  &:active {
+  }
+
+  &--primary {
+    background-color: $color-primary;
+  }
+
+  &--secondary {
+    background-color: $color-secondary;
+  }
+
+  &--animated {
+    @include background-transition($color-primary, $color-secondary);
+  }
+}
