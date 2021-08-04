@@ -1,0 +1,15 @@
+.footer {
+  &__link {
+    &:hover,
+    &:active {
+    }
+  }
+
+  &__icon {
+  }
+
+  &__copyright {
+    @include mq('xl') {
+    }
+  }
+}
