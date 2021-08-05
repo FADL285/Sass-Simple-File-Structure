@@ -68,15 +68,6 @@ $breakpoints: (
 
 // /////////////
 
-@mixin push--auto {
-  margin: {
-    left: auto;
-    right: auto;
-  }
-}
-
-// /////////////
-
 @mixin font-face($font-name, $path, $weight: normal, $style: normal) {
   @font-face {
     font-family: quote($font-name);
@@ -200,16 +191,16 @@ button {
   color: white;
 
   &:nth-of-type(1) {
-    @include background-transition(#4CAF50, #3F51B5);
+    @include skew-background-transition(#4CAF50, #3F51B5);
   }
 
   &:nth-of-type(2) {
     color: #424242;
-    @include background-transition(#FFEE58, #e57373, true);
+    @include skew-background-transition(#FFEE58, #e57373, true);
   }
 
   &:nth-of-type(3) {
-    @include background-transition(#311B92, #1976D2);
+    @include skew-background-transition(#311B92, #1976D2);
   }
 }
 */

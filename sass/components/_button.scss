@@ -17,6 +17,6 @@
   }
 
   &--animated {
-    @include background-transition($color-primary, $color-secondary);
+    @include skew-background-transition($color-primary, $color-secondary);
   }
 }
